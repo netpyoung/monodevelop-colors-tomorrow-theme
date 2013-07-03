@@ -1,0 +1,154 @@
+﻿<!-- TomorrowNight.xml
+# Tomorrow Night
+* Theme : [tomorrow-night theme](https://github.com/chriskempson/tomorrow-theme)
+* Author: netpyoung
+-->
+
+<!--
+# based on Monokia
+* Theme : [MonokaiStyle](https://github.com/dkucinskas/MonoDevelop-Styles)
+* Author: Darius Kučinskas <d.kucinskas@gmail.com>
+-->
+
+<EditorStyle name="TomorrowNight" _description="MonoDevelopment Tomorrow Night Theme">
+  
+  <!-- Color -->
+  <Color value="#1d1f21" name="color_background" />
+  <Color value="#282a2e" name="color_current_line" />
+  <Color value="#373b41" name="color_selection" />
+  <Color value="#c5c8c6" name="color_foreground" />
+  <Color value="#969896" name="color_comment" />
+  <Color value="#cc6666" name="color_red" />
+  <Color value="#de935f" name="color_orange" />
+  <Color value="#f0c674" name="color_yellow" />
+  <Color value="#b5bd68" name="color_green" />
+  <Color value="#8abeb7" name="color_aqua" />
+  <Color value="#81a2be" name="color_blue" />
+  <Color value="#b294bb" name="color_purple" />
+  
+  
+  <Color value="#4A440C" name="color_searchresult" />
+  <Color value="#4A440C" name="color_searchresult_main" />
+  
+  <Color name="bg_dark_brownish" value="#3B3A32" />
+  <Color name="error_bg" value="#D40000" />
+
+  <!-- Style -->
+  <Style name="text" color="color_foreground" bgColor="color_background" />
+  <Style name="text.background.readonly" color="color_background" />
+  <Style name="text.selection" color="color_selection" bgColor="#000000" />
+  <Style name="text.selection.inactive" color="#FDD99B" bgColor="#A9A9A9" />
+  <Style name="text.background.searchresult" color="color_searchresult" />
+  <Style name="text.background.searchresult-main" color="color_searchresult_main" />
+  <Style name="text.link" color="#0000FF" />
+  <Style name="text.punctuation" color="color_red" />
+  <Style name="text.preprocessor" color="#336699" />
+  <Style name="text.preprocessor.keyword" color="#336699" weight="Bold" />
+  <Style name="text.markup" color="color_green" />
+  <Style name="text.markup.tag" color="color_blue" />
+  
+  <Style name="linenumber"           color="#BCBCBC"     bgColor="bg_dark_brownish" />
+  <Style name="linenumber.highlight" color="color_green" />
+  
+  <Style name="iconbar"           color="bg_dark_brownish" />
+  <Style name="iconbar.separator" color="bg_dark_brownish" />
+  
+  <Style name="fold" color="#465457" />
+  <Style name="fold.highlight" color="#565248" />
+  <Style name="fold.togglemarker" color="#465457" />
+  
+  <Style name="marker.line.dirty" color="#F92570" />
+  <Style name="marker.line.changed" color="color_green" />
+  <Style name="marker.line" color="#3E3D31" />
+  <Style name="marker.ruler" color="#B3DEFD" />
+  <Style name="marker.whitespace" color="#D9BB7A" />
+  <Style name="marker.invalidline" color="error_bg" />
+  <Style name="marker.breakpoint" color="#FFFFFF" bgColor="#7D0000" />
+  <Style name="marker.breakpoint.color1" color="#FFFFFF" />
+  <Style name="marker.breakpoint.color2" color="#7D0000" />
+  <Style name="marker.breakpoint.disabled.background" color="#EDDCDC" />
+  <Style name="marker.debug.currentline" color="#000000" bgColor="#FEFF00" />
+  <Style name="marker.debug.currentline.color1" color="#FEFF00" />
+  <Style name="marker.debug.currentline.color2" color="#FEFECC" />
+  <Style name="marker.debug.currentline.border" color="#656600" />
+  <Style name="marker.debug.stackline" color="#000000" bgColor="#80FF80" />
+  <Style name="marker.debug.stackline.color1" color="#80FF80" />
+  <Style name="marker.debug.stackline.color2" color="#CCFECC" />
+  <Style name="marker.debug.stackline.border" color="#336633" />
+  <Style name="marker.breakpoint.invalid.background" color="#EDDCDC" />
+  <Style name="marker.breakpoint.invalid.color1" color="#EDDCDC" />
+  <Style name="marker.breakpoint.invalid.border" color="#7D0000" />
+  <Style name="marker.bracket" color="#6699CC" bgColor="#AACCEE" />
+  <Style name="marker.bookmark.color1" color="#FDD99B" />
+  <Style name="marker.bookmark.color2" color="#816647" />
+  <Style name="marker.underline.error" color="#FF0000" />
+  <Style name="marker.underline.warning" color="#FFA500" />
+  <Style name="marker.underline.suggestion" color="#8FC68F" />
+  <Style name="marker.underline.hint" color="#8F8FC6" />
+  <Style name="marker.template.primary_template" color="#015A01" bgColor="#98FC66" />
+  <Style name="marker.template.primary_highlighted_template" color="#015A01" bgColor="#CCFF99" />
+  <Style name="marker.template.secondary_template" color="#FFFFFF" bgColor="#FFFFFF" />
+  <Style name="marker.template.secondary_highlighted_template" color="#D9BB7A" bgColor="#FDD99B" />
+  
+  <Style name="diff.line-added"       color="#008A8B" />
+  <Style name="diff.line-removed"     color="#6A59CD" />
+  <Style name="diff.line-changed"     color="#336699" />
+  <Style name="diff.header"           color="#008000" weight="Bold" />
+  <Style name="diff.header-seperator" color="#0000FF" />
+  <Style name="diff.header-oldfile"   color="#008000" weight="Bold" />
+  <Style name="diff.header-newfile"   color="#008000" weight="Bold" />
+  <Style name="diff.location"         color="#FB8B00" />
+
+  <Style name="bubble.warning"      color="#000000" bgColor="#F3EEDA" />
+  <Style name="bubble.warning.text" color="#000000" />
+  <Style name="bubble.error"        color="#FFFFFF" bgColor="#7D0000" />
+  <Style name="bubble.error.text"   color="#000000" />
+  
+  <Style name="template"           color="#000000" />
+  <Style name="template.tag"       color="#FF00FF" />
+  <Style name="template.directive" color="#FF00FF" />
+  
+  <Style name="comment"              color="color_comment" weight="Bold" />
+  <Style name="comment.tag"          color="color_comment" weight="Bold" />
+  <Style name="comment.line"         color="color_comment" weight="Bold" />
+  <Style name="comment.tag.line"     color="color_comment" weight="Bold" />
+  <Style name="comment.block"        color="color_comment" weight="Bold" />
+  <Style name="comment.tag.block"    color="color_comment" weight="Bold" />
+  <Style name="comment.doc"          color="#339900" />
+  <Style name="comment.tag.doc"      color="#339900" />
+  <Style name="comment.keyword"      color="#339900" weight="Bold" />
+  <Style name="comment.keyword.todo" color="#339900" weight="Italic" />
+  
+  <Style name="constant"               color="color_blue" weight="Bold" />
+  <Style name="constant.digit"         color="color_blue" weight="Bold" />
+  <Style name="constant.language"      color="color_blue" weight="Bold" />
+  <Style name="constant.language.void" color="color_yellow" />
+  
+  <Style name="string"        color="color_blue" weight="Bold" />
+  <Style name="string.single" color="color_blue" weight="Bold" />
+  <Style name="string.double" color="color_blue" weight="Bold" />
+  <Style name="string.other"  color="color_blue" weight="Bold" />
+
+  <Style name="keyword"             color="color_purple" />
+  <Style name="keyword.access"      color="color_green"  />
+  <Style name="keyword.namespace"   color="color_purple" />
+  <Style name="keyword.property"    color="color_green"  />
+  <Style name="keyword.modifier"    color="color_purple" />
+  <Style name="keyword.type"        color="color_yellow"   />
+  <Style name="keyword.declaration" color="color_purple" />
+  <Style name="keyword.operator"    color="color_red" weight="Bold" />
+  <Style name="keyword.operator.declaration" color="color_red" weight="Bold" />
+  <Style name="keyword.selection"   color="color_purple" />
+  <Style name="keyword.iteration"   color="color_purple" />
+  <Style name="keyword.jump"        color="color_orange" weight="Bold" />
+  <Style name="keyword.context"     color="color_purple" />
+  <Style name="keyword.exceptions"  color="color_aqua" weight="Bold" />
+  <Style name="keyword.parameter"   color="color_purple"   />
+  <Style name="keyword.misc"        color="color_orange" />
+  <Style name="keyword.semantic.type"  color="color_green" />
+  <Style name="keyword.semantic.field" color="color_green" />
+  <Style name="keyword.semantic.error" color="color_foreground" bgColor="error_bg" weight="Italic" />
+
+  <Style name="marker.whitespace.eol" color="#D9BB7A" />
+  <Style name="marker.breakpoint.invalid" color="#FFFFFF" bgColor="#7D0000" />
+</EditorStyle>
