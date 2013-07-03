@@ -120,15 +120,15 @@
   <Style name="comment.keyword"      color="#339900" weight="Bold" />
   <Style name="comment.keyword.todo" color="#339900" weight="Italic" />
   
-  <Style name="constant"               color="color_blue" weight="Bold" />
-  <Style name="constant.digit"         color="color_blue" weight="Bold" />
-  <Style name="constant.language"      color="color_blue" weight="Bold" />
+  <Style name="constant"               color="color_aqua" />
+  <Style name="constant.digit"         color="color_aqua" />
+  <Style name="constant.language"      color="color_aqua" />
   <Style name="constant.language.void" color="color_yellow" />
   
-  <Style name="string"        color="color_blue" weight="Bold" />
-  <Style name="string.single" color="color_blue" weight="Bold" />
-  <Style name="string.double" color="color_blue" weight="Bold" />
-  <Style name="string.other"  color="color_blue" weight="Bold" />
+  <Style name="string"        color="color_aqua" />
+  <Style name="string.single" color="color_aqua" />
+  <Style name="string.double" color="color_aqua" />
+  <Style name="string.other"  color="color_aqua" />
 
   <Style name="keyword"             color="color_purple" />
   <Style name="keyword.access"      color="color_green"  />
@@ -143,7 +143,7 @@
   <Style name="keyword.iteration"   color="color_purple" />
   <Style name="keyword.jump"        color="color_orange" weight="Bold" />
   <Style name="keyword.context"     color="color_purple" />
-  <Style name="keyword.exceptions"  color="color_aqua" weight="Bold" />
+  <Style name="keyword.exceptions"  color="color_blue" weight="Bold" />
   <Style name="keyword.parameter"   color="color_purple"   />
   <Style name="keyword.misc"        color="color_orange" />
   <Style name="keyword.semantic.type"  color="color_green" />
