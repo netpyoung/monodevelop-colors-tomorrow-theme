@@ -136,7 +136,7 @@
   <Style name="keyword.property"    color="color_green"  />
   <Style name="keyword.modifier"    color="color_purple" />
   <Style name="keyword.type"        color="color_yellow"   />
-  <Style name="keyword.declaration" color="color_purple" />
+  <Style name="keyword.declaration" color="color_yellow" />
   <Style name="keyword.operator"    color="color_red" weight="Bold" />
   <Style name="keyword.operator.declaration" color="color_red" weight="Bold" />
   <Style name="keyword.selection"   color="color_purple" />

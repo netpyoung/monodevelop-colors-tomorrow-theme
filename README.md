@@ -5,6 +5,10 @@ this is for monodevelop syntax color with [tomorrow-theme].
 
 based on [MonokaiStyle] theme.
 
+## Screenshoot
+* TomorrowNight
+![TomorrowNight.png](TomorrowNight.png)
+
 ## How to install
 * in MonoDevelop `open menu -> Tools -> Options`
 * navigate to -> `Text Editor -> Syntax Highlighing`
@@ -15,7 +19,7 @@ based on [MonokaiStyle] theme.
 * close and reopen all your file tabs
 
 
-## TomorrowNight.xml
+## TomorrowNight
 
 ```xml
   <!-- Color -->
