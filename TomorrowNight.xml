@@ -29,7 +29,7 @@
   
   
   <Color value="#4A440C" name="color_searchresult" />
-  <Color value="#4A440C" name="color_searchresult_main" />
+  <Color value="#9A440C" name="color_searchresult_main" />
   
   <Color name="bg_dark_brownish" value="#3B3A32" />
   <Color name="error_bg" value="#D40000" />
@@ -40,7 +40,7 @@
   <Style name="text.selection" color="color_selection" bgColor="#000000" />
   <Style name="text.selection.inactive" color="#FDD99B" bgColor="#A9A9A9" />
   <Style name="text.background.searchresult" color="color_searchresult" />
-  <Style name="text.background.searchresult-main" color="color_searchresult_main" />
+  <Style name="text.background.searchresult-main" color="color_searchresult_main" weight="Bold" />
   <Style name="text.link" color="#0000FF" />
   <Style name="text.punctuation" color="color_red" />
   <Style name="text.preprocessor" color="#336699" />
@@ -109,16 +109,16 @@
   <Style name="template.tag"       color="#FF00FF" />
   <Style name="template.directive" color="#FF00FF" />
   
-  <Style name="comment"              color="color_comment" weight="Bold" />
-  <Style name="comment.tag"          color="color_comment" weight="Bold" />
-  <Style name="comment.line"         color="color_comment" weight="Bold" />
-  <Style name="comment.tag.line"     color="color_comment" weight="Bold" />
-  <Style name="comment.block"        color="color_comment" weight="Bold" />
-  <Style name="comment.tag.block"    color="color_comment" weight="Bold" />
-  <Style name="comment.doc"          color="#339900" />
-  <Style name="comment.tag.doc"      color="#339900" />
-  <Style name="comment.keyword"      color="#339900" weight="Bold" />
-  <Style name="comment.keyword.todo" color="#339900" weight="Italic" />
+  <Style name="comment"              color="color_comment" />
+  <Style name="comment.tag"          color="color_comment" />
+  <Style name="comment.line"         color="color_comment" />
+  <Style name="comment.tag.line"     color="color_comment" />
+  <Style name="comment.block"        color="color_comment" />
+  <Style name="comment.tag.block"    color="color_comment" />
+  <Style name="comment.doc"          color="color_green" />
+  <Style name="comment.tag.doc"      color="color_green" />
+  <Style name="comment.keyword"      color="color_green" weight="Bold" />
+  <Style name="comment.keyword.todo" color="color_green" weight="Italic" />
   
   <Style name="constant"               color="color_aqua" />
   <Style name="constant.digit"         color="color_aqua" />
