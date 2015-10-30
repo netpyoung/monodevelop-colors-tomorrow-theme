@@ -21,7 +21,7 @@ base = {
 }
 
 tomorrow_night = {
-  :name         => 'TomorrowNight',
+  :name               => 'TomorrowNight',
   :color_background   => '#1d1f21',
   :color_current_line => '#282a2e',
   :color_selection    => '#373b41',
@@ -36,8 +36,24 @@ tomorrow_night = {
   :color_purple       => '#b294bb'
 }
 
+tomorrow = {
+  :name               => 'Tomorrow',
+  :color_background   => '#ffffff',
+  :color_current_line => '#efefef',
+  :color_selection    => '#d6d6d6',
+  :color_foreground   => '#4d4d4c',
+  :color_comment      => '#8e908c',
+  :color_red          => '#c82829',
+  :color_orange       => '#f5871f',
+  :color_yellow       => '#eab700',
+  :color_green        => '#718c00',
+  :color_aqua         => '#3e999f',
+  :color_blue         => '#4271ae',
+  :color_purple       => '#8959a8'
+}
+
 tomorrow_night_bright = {
-  :name         => 'TomorrowNightBright',
+  :name               => 'TomorrowNightBright',
   :color_background   => '#000000',
   :color_current_line => '#2a2a2a',
   :color_selection    => '#424242',
