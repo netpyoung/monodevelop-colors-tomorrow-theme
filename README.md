@@ -7,7 +7,7 @@ based on [MonokaiStyle] theme.
 
 ## Screenshoot
 * TomorrowNight
-![TomorrowNight.png](TomorrowNight.png)
+![TomorrowNight.png](new_json/TomorrowNight.png)
 
 ## How to install
 * in MonoDevelop `open menu -> Tools -> Options`
