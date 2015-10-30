@@ -3,7 +3,6 @@ monodevelop-colors-tomorrow-theme
 
 this is for monodevelop syntax color with [tomorrow-theme].
 
-based on [MonokaiStyle] theme.
 
 ## Screenshoot
 * TomorrowNight
@@ -13,7 +12,7 @@ based on [MonokaiStyle] theme.
 * in MonoDevelop `open menu -> Tools -> Options`
 * navigate to -> `Text Editor -> Syntax Highlighing`
 * press `Add` button
-* nvigate to file `TomorowNight.xml`
+* navigate to file `TomorowNight.json`
 * press `Open`
 * select `TomorrowNight` theme and then press `OK`
 * close and reopen all your file tabs
@@ -21,22 +20,23 @@ based on [MonokaiStyle] theme.
 
 ## TomorrowNight
 
-```xml
-  <!-- Color -->
-  <Color value="#1d1f21" name="color_background" />
-  <Color value="#282a2e" name="color_current_line" />
-  <Color value="#373b41" name="color_selection" />
-  <Color value="#c5c8c6" name="color_foreground" />
-  <Color value="#969896" name="color_comment" />
-  <Color value="#cc6666" name="color_red" />
-  <Color value="#de935f" name="color_orange" />
-  <Color value="#f0c674" name="color_yellow" />
-  <Color value="#b5bd68" name="color_green" />
-  <Color value="#8abeb7" name="color_aqua" />
-  <Color value="#81a2be" name="color_blue" />
-  <Color value="#b294bb" name="color_purple" />
+```ruby
+tomorrow_night = {
+  :name         => 'TomorrowNight',
+  :color_background   => '#1d1f21',
+  :color_current_line => '#282a2e',
+  :color_selection    => '#373b41',
+  :color_foreground   => '#c5c8c6',
+  :color_comment      => '#969896',
+  :color_red          => '#cc6666',
+  :color_orange       => '#de935f',
+  :color_yellow       => '#f0c674',
+  :color_green        => '#b5bd68',
+  :color_aqua         => '#8abeb7',
+  :color_blue         => '#81a2be',
+  :color_purple       => '#b294bb'
+}
 ```
 
 
- [MonokaiStyle]: https://github.com/dkucinskas/MonoDevelop-Styles
  [tomorrow-theme]: https://github.com/chriskempson/tomorrow-theme
